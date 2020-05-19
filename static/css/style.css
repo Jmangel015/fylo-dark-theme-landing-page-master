@@ -1,3 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--DarkBlue1);
+  color: var(--White);
+}
+
+.hero {
+  text-align: center;
+}
+.hero__img {
+  height: 275px;
+  position: relative;
+  top: 40px;
+  background: url("/static/images/illustration-intro.png") center no-repeat;
+  background-size: 319px;
+  margin: 0 calc(-1 * var(--wrapperSpace));
+  z-index: 2;
+}
+.hero__img2 {
+  height: 145px;
+  background: url("/static/images/bg-curvy-mobile.svg") center no-repeat;
+  background-size: 375px;
+  margin: 0 calc(-1 * var(--wrapperSpace));
+  transform: translateY(-30px);
+}
+
+.title__h1 {
+  margin-top: 20px;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.wrapper {
+  padding: 0 var(--wrapperSpace);
+}
+
+.button {
+  border: 0;
+  padding: 1em 5em;
+  border-radius: 1.5em;
+  color: var(--White);
+  background-color: var(--Cyan);
+  margin-top: 10px;
+}
+
+.copy {
+  margin: 0px;
+  line-height: 1.8;
+  padding: 1.5em;
+}
+.copy::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 410px;
+  width: 374px;
+  height: 250px;
+  background-color: var(--DarkBlue2);
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  font-weight: 400;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+header a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: var(--white);
+}
+header img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 30px;
+}
+
 :root {
   --DarkBlue1: hsl(217, 28%, 15%);
   --DarkBlue2: hsl(218, 28%, 13%);
@@ -7,41 +97,7 @@
   --Blue: hsl(198, 60%, 50%);
   --White: hsl(0, 0%, 100%);
   font-size: 14px;
-}
-
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  background-color: var(--DarkBlue4);
-  color: var(--White);
-}
-
-.hero {
-  text-align: center;
-}
-
-.title__h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.7em;
-  line-height: 1.5;
-}
-
-.wrapper {
-  padding: 0 1.5em;
-}
-
-.button {
-  margin: 20px;
-  border: 0;
-  padding: 1em 5em;
-  border-radius: 1.5em;
-  color: var(--White);
-  background-color: var(--Cyan);
-}
-
-.copy {
-  line-height: 1.5;
-  font-size: 1.1em;
+  --wrapperSpace: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
