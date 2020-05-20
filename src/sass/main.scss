@@ -1,12 +1,13 @@
 @import "./layout/hero.scss";
 @import "./layout/header.scss";
 @import "./layout/features.scss";
+@import "./layout/stay.scss";
 :root {
   --DarkBlue1: hsl(217, 28%, 15%);
   --DarkBlue2: hsl(218, 28%, 13%);
   --DarkBlue3: hsl(216, 53%, 9%);
   --DarkBlue4: hsl(219, 30%, 18%);
-  --Cyan: hsl(176, 68%, 64%);
+  --Cyan: hsl(176, 68%, 56%);
   --Blue: hsl(198, 60%, 50%);
   --White: hsl(0, 0%, 100%);
   font-size: 14px;

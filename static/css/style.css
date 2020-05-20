@@ -95,12 +95,49 @@ header img {
   padding: 2em;
 }
 
+.stay {
+  background: var(--DarkBlue2);
+  text-align: center;
+}
+.stay__img {
+  padding-top: 7em;
+  height: 17em;
+}
+.stay__h1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 15px;
+}
+.stay__p {
+  margin: 0;
+  text-align: left;
+  padding: 20px;
+}
+
+.arrow {
+  background: var(--DarkBlue2);
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.arrow__a {
+  text-decoration: none;
+  color: var(--Cyan);
+}
+.arrow__a::before {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  height: 2px;
+  background: var(--Cyan);
+  width: 150px;
+}
+
 :root {
   --DarkBlue1: hsl(217, 28%, 15%);
   --DarkBlue2: hsl(218, 28%, 13%);
   --DarkBlue3: hsl(216, 53%, 9%);
   --DarkBlue4: hsl(219, 30%, 18%);
-  --Cyan: hsl(176, 68%, 64%);
+  --Cyan: hsl(176, 68%, 56%);
   --Blue: hsl(198, 60%, 50%);
   --White: hsl(0, 0%, 100%);
   font-size: 14px;
