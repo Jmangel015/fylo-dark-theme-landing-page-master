@@ -58,7 +58,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  top: 410px;
+  top: 470px;
   width: 374px;
   height: 250px;
   background-color: var(--DarkBlue2);
@@ -73,8 +73,7 @@ header ul {
   display: flex;
   list-style: none;
   position: absolute;
-  top: 10px;
-  right: 30px;
+  padding: 1em;
 }
 header a {
   margin-left: 15px;
@@ -83,9 +82,17 @@ header a {
 }
 header img {
   position: relative;
-  top: 20px;
-  left: 20px;
+  padding: 2em;
   height: 30px;
+}
+
+.features {
+  text-align: center;
+  background: var(--DarkBlue2);
+  padding-top: 5em;
+}
+.features__item {
+  padding: 2em;
 }
 
 :root {
