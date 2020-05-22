@@ -1,0 +1,38 @@
+.team {
+  background: var(--DarkBlue2);
+  position: relative;
+  &__conteiner {
+    padding: 3em;
+    padding-bottom: 20em;
+    & img {
+      width: 30px;
+    }
+  }
+  &__item {
+    padding: 2em;
+
+    background-color: var(--DarkBlue4);
+    margin-bottom: 2em;
+    border-radius: 5px;
+    & p {
+      margin: 0;
+      font-size: 10px;
+      &.title_p {
+        position: relative;
+        left: 5em;
+      }
+    }
+    & img {
+      width: 40px;
+      border-radius: 50%;
+      position: relative;
+      top: 40px;
+    }
+    & h3 {
+      position: relative;
+      left: 4em;
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+}

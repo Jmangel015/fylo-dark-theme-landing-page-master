@@ -59,7 +59,7 @@ body {
   position: absolute;
   left: 0;
   top: 470px;
-  width: 374px;
+  width: 375px;
   height: 250px;
   background-color: var(--DarkBlue2);
   z-index: -1;
@@ -117,7 +117,7 @@ header img {
 .arrow {
   background: var(--DarkBlue2);
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .arrow__a {
   text-decoration: none;
@@ -130,6 +130,126 @@ header img {
   height: 2px;
   background: var(--Cyan);
   width: 150px;
+}
+
+.team {
+  background: var(--DarkBlue2);
+  position: relative;
+}
+.team__conteiner {
+  padding: 3em;
+  padding-bottom: 20em;
+}
+.team__conteiner img {
+  width: 30px;
+}
+.team__item {
+  padding: 2em;
+  background-color: var(--DarkBlue4);
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+.team__item p {
+  margin: 0;
+  font-size: 10px;
+}
+.team__item p.title_p {
+  position: relative;
+  left: 5em;
+}
+.team__item img {
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+}
+.team__item h3 {
+  position: relative;
+  left: 4em;
+  margin: 0;
+  font-size: 12px;
+}
+
+.signin {
+  padding: 1em;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+.signin__box {
+  background: var(--DarkBlue1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  padding: 2em;
+  transform: translateY(-60%);
+}
+.signin p {
+  margin: 0;
+  padding: 1em;
+}
+.signin button {
+  border: 0;
+  padding: 1em 5em;
+  border-radius: 1.5em;
+  margin-top: 10px;
+  color: var(--White);
+  background-color: var(--Cyan);
+  font-weight: 700;
+}
+.signin input {
+  border: 0;
+  padding: 1em 3em;
+  border-radius: 1.5em;
+  margin-top: 10px;
+  background-color: var(--White);
+}
+
+footer {
+  background: var(--DarkBlue3);
+  position: absolute;
+}
+footer .logo {
+  padding: 2em;
+  padding-top: 15em;
+}
+
+.conteiner {
+  padding: 2em;
+}
+.conteiner__p {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0em 2em;
+}
+.conteiner ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 4em;
+}
+.conteiner img {
+  display: block;
+  position: absolute;
+}
+
+.icons i.fab.fa-facebook-f {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.icons i {
+  margin-left: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+.icons i:hover {
+  color: var(--DarkBlue1);
 }
 
 :root {

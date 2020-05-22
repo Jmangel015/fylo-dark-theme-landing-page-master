@@ -2,7 +2,10 @@
 @import "./layout/header.scss";
 @import "./layout/features.scss";
 @import "./layout/stay.scss";
-:root {
+@import "./layout/team.scss";
+@import "./layout/signin.scss";
+@import "./layout/footer.scss";
+:root  {
   --DarkBlue1: hsl(217, 28%, 15%);
   --DarkBlue2: hsl(218, 28%, 13%);
   --DarkBlue3: hsl(216, 53%, 9%);
