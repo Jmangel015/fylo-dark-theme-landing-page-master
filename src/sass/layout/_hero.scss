@@ -7,26 +7,32 @@ body {
 
 .hero {
   text-align: center;
+  height: 600px;
   &__img {
     height: 275px;
     position: relative;
     top: 40px;
     background: url("/static/images/illustration-intro.png") center no-repeat;
     background-size: 319px;
-    margin: 0 calc(-1 * var(--wrapperSpace));
+
     z-index: 2;
   }
   &__img2 {
-    height: 145px;
+    height: 275px;
+
     background: url("/static/images/bg-curvy-mobile.svg") center no-repeat;
+    position: relative;
     background-size: 375px;
-    margin: 0 calc(-1 * var(--wrapperSpace));
-    transform: translateY(-30px);
+  }
+  &__conteiner {
+    background: var(--DarkBlue2);
+    position: relative;
+    top: -5em;
+    height: 10em;
   }
 }
 .title {
   &__h1 {
-    margin-top: 20px;
     padding: 15px;
     font-family: "Raleway", sans-serif;
     font-size: 1.7em;
@@ -45,20 +51,15 @@ body {
   border-radius: 1.5em;
   color: var(--White);
   background-color: var(--Cyan);
-  margin-top: 10px;
+  position: relative;
+  top: -6em;
 }
 .copy {
   margin: 0px;
   line-height: 1.8;
-  padding: 1.5em;
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 470px;
-    width: 375px;
-    height: 250px;
-    background-color: var(--DarkBlue2);
-    z-index: -1;
+  padding: 3em;
+  position: relative;
+  top: -6em;
+  @media screen and(min-width:775px) {
   }
 }

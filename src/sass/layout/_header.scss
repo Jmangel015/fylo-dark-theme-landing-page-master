@@ -1,12 +1,7 @@
 header {
   display: flex;
   font-weight: 400;
-  ul {
-    display: flex;
-    list-style: none;
-    position: absolute;
-    padding: 1em;
-  }
+
   a {
     margin-left: 15px;
     text-decoration: none;
@@ -16,5 +11,9 @@ header {
     position: relative;
     padding: 2em;
     height: 30px;
+  }
+  nav {
+    padding-top: 2em;
+    height: 1em;
   }
 }

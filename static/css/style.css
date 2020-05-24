@@ -7,6 +7,7 @@ body {
 
 .hero {
   text-align: center;
+  height: 600px;
 }
 .hero__img {
   height: 275px;
@@ -14,19 +15,22 @@ body {
   top: 40px;
   background: url("/static/images/illustration-intro.png") center no-repeat;
   background-size: 319px;
-  margin: 0 calc(-1 * var(--wrapperSpace));
   z-index: 2;
 }
 .hero__img2 {
-  height: 145px;
+  height: 275px;
   background: url("/static/images/bg-curvy-mobile.svg") center no-repeat;
+  position: relative;
   background-size: 375px;
-  margin: 0 calc(-1 * var(--wrapperSpace));
-  transform: translateY(-30px);
+}
+.hero__conteiner {
+  background: var(--DarkBlue2);
+  position: relative;
+  top: -5em;
+  height: 10em;
 }
 
 .title__h1 {
-  margin-top: 20px;
   padding: 15px;
   font-family: "Raleway", sans-serif;
   font-size: 1.7em;
@@ -46,34 +50,20 @@ body {
   border-radius: 1.5em;
   color: var(--White);
   background-color: var(--Cyan);
-  margin-top: 10px;
+  position: relative;
+  top: -6em;
 }
 
 .copy {
   margin: 0px;
   line-height: 1.8;
-  padding: 1.5em;
+  padding: 3em;
+  position: relative;
+  top: -6em;
 }
-.copy::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 470px;
-  width: 375px;
-  height: 250px;
-  background-color: var(--DarkBlue2);
-  z-index: -1;
-}
-
 header {
   display: flex;
   font-weight: 400;
-}
-header ul {
-  display: flex;
-  list-style: none;
-  position: absolute;
-  padding: 1em;
 }
 header a {
   margin-left: 15px;
@@ -84,6 +74,10 @@ header img {
   position: relative;
   padding: 2em;
   height: 30px;
+}
+header nav {
+  padding-top: 2em;
+  height: 1em;
 }
 
 .features {
