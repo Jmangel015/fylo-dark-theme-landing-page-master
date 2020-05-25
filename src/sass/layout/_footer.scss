@@ -1,6 +1,6 @@
 footer {
   background: var(--DarkBlue3);
-  position: absolute;
+  position: relative;
   & .logo {
     padding: 2em;
     padding-top: 15em;
@@ -41,5 +41,9 @@ footer {
     &:hover {
       color: var(--DarkBlue1);
     }
+  }
+  @media screen and (min-width: 775px) {
+    position: relative;
+    top: 30em;
   }
 }

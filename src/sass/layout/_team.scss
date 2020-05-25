@@ -1,6 +1,8 @@
 .team {
   background: var(--DarkBlue2);
   position: relative;
+  padding-top: 10em;
+  padding-bottom: 7em;
   &__conteiner {
     padding: 3em;
     padding-bottom: 20em;
@@ -33,6 +35,25 @@
       left: 4em;
       margin: 0;
       font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 775px) {
+    position: relative;
+    top: 30em;
+    &__item {
+      height: 200px;
+      width: 300px;
+      margin-left: 2em;
+
+      & p {
+        font-size: 1em;
+        line-height: 2em;
+      }
+    }
+    &__flex {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
     }
   }
 }

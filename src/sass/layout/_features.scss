@@ -5,4 +5,17 @@
   &__item {
     padding: 2em;
   }
+  @media screen and(min-width:775px) {
+    position: relative;
+    top: 30em;
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item {
+      padding: 5em;
+      width: 26em;
+    }
+  }
 }

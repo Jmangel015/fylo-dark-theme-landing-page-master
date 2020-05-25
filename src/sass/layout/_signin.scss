@@ -30,4 +30,20 @@
     margin-top: 10px;
     background-color: var(--White);
   }
+  @media screen and(min-width:775px) {
+    position: relative;
+    top: 20em;
+    &__box {
+      margin: 0px auto;
+      width: 800px;
+      padding-bottom: 5em;
+    }
+    & p {
+      padding: 0px 5em;
+      padding-bottom: 2em;
+    }
+    & input {
+      width: 400px;
+    }
+  }
 }

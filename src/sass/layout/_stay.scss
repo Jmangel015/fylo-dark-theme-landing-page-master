@@ -1,6 +1,5 @@
 .stay {
   background: var(--DarkBlue2);
-  text-align: center;
   &__img {
     padding-top: 7em;
     height: 17em;
@@ -14,6 +13,30 @@
     margin: 0;
     text-align: left;
     padding: 20px;
+  }
+
+  @media screen and (min-width: 775px) {
+    position: relative;
+    top: 30em;
+    &__conteiner {
+      padding: 3em;
+      padding-top: 10em;
+      width: 530px;
+    }
+    &__img {
+      height: 30em;
+    }
+    &__flex {
+      display: flex;
+      justify-content: center;
+    }
+    &__h1 {
+      font-size: 3em;
+    }
+    &__p {
+      font-size: 1em;
+      padding: 15px 1em;
+    }
   }
 }
 .arrow {
@@ -30,6 +53,18 @@
       height: 2px;
       background: var(--Cyan);
       width: 150px;
+    }
+  }
+  @media screen and(min-width:775px) {
+    &__a {
+      font-size: 1em;
+      &::before {
+        margin-top: 30px;
+        width: 190px;
+      }
+    }
+    &__img {
+      height: 1.5em;
     }
   }
 }

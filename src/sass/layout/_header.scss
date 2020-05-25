@@ -1,7 +1,6 @@
 header {
   display: flex;
   font-weight: 400;
-
   a {
     margin-left: 15px;
     text-decoration: none;
@@ -15,5 +14,9 @@ header {
   nav {
     padding-top: 2em;
     height: 1em;
+  }
+  @media screen and(min-width:775px) {
+    justify-content: space-between;
+    padding: 0px 6em;
   }
 }
