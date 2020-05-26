@@ -340,7 +340,6 @@ footer .logo {
   padding: 2em;
   padding-top: 15em;
 }
-
 .conteiner {
   padding: 2em;
 }
@@ -357,6 +356,22 @@ footer .logo {
 .conteiner img {
   display: block;
   position: absolute;
+}
+@media screen and (min-width: 775px) {
+  .conteiner {
+    display: flex;
+    justify-content: center;
+  }
+  .conteiner__p {
+    width: 250px;
+  }
+  .conteiner__ul {
+    display: flex;
+  }
+  .conteiner ul {
+    margin-top: 0em;
+    width: 150px;
+  }
 }
 
 .icons i.fab.fa-facebook-f {
@@ -381,8 +396,7 @@ footer .logo {
 }
 @media screen and (min-width: 775px) {
   .icons {
-    position: relative;
-    top: 30em;
+    height: 35px;
   }
 }
 
